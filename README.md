@@ -15,6 +15,8 @@ jobs:
       uses: actions/checkout@v2
     - name: Setup AWS Copilot
       uses: softprops/setup-aws-copilot@v1
+    - name: demo
+    - run: copilot command
 ```
 
 #### inputs
